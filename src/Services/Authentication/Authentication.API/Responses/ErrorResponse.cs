@@ -1,0 +1,9 @@
+﻿using Authentication.API.Models;
+
+namespace Authentication.API.Responses
+{
+    public class ErrorResponse
+    {
+        public  List<ErrorModel> Errors { get; set; }= new List<ErrorModel>();
+    }
+}
